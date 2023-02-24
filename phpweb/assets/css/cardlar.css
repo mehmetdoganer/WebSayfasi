@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.user-card {
+   width: 300px;
+   height: 400px;
+   box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.3);
+   border-radius: 15px;
+   overflow: hidden;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   transition: box-shadow 0.2s ease-in;
+   cursor: pointer;
+}
+
+.user-card .user-cover {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.user-card .user-cover .user-avatar {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -35px;
+    border: 4px solid rgb(241, 232, 232);
+}
+
+.user-card .user-details {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    width: 80%;
+
+}
+
+.user-card .user-details .user-name {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.user-card .user-details .user-email {
+    font-size: 14px;
+    color: #0f5fc0;
+    font-weight: 500;
+}
+
+.user-card .user-details .user-text {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #666;
+}
+
+.user-card .contact-user  {
+     margin-bottom: 15px;
+     padding: 10px 80px;
+     border-radius: 5px;
+     
+     border: 0;
+     background: #035f7d;
+     
+     text-transform: uppercase;
+     cursor: pointer;
+     
+    
+} 
+
+.user-card .contact-user a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
